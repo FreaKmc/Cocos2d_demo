@@ -1,0 +1,24 @@
+#pragma once
+
+#include "cocos2d.h"
+#include "SneakyJoystick.h"
+
+class SneakyJoystickSkinnedBase : public cocos2d::CCLayer
+{
+public:
+    //Public methods
+    CREATE_FUNC(SneakyJoystickSkinnedBase);
+    virtual ~SneakyJoystickSkinnedBase();
+    virtual bool init();
+    void updatePositions(float delta);
+    void setContentSize(cocos2d::CCSize s);
+    void setBackgroundSprite(cocos2d::CCSprite *aSprite);
+    void setThumbSprite(cocos2d::CCSprite *aSprite);
+    void setJoystick(SneakyJoystick *aJoystick);
+
+private:
+    CC_SYNTHESIZE_READONLY(cocos2d::CCSprite *, backgroundSprite, BackgroundSprite);
+    CC_SYNTHESIZE_READONLY(cocos2d::CCSprite *, thumbSprite, ThumbSprite);
+    CC_SYNTHESIZE_READONLY(SneakyJoystick *, joystick, Joystick);	
+
+};

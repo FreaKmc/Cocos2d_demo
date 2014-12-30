@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\InputController">
+      <UniqueIdentifier>{d4b3d5cc-7312-42ca-a0fb-68b6bc6d9fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{e4c51a89-ff36-47fd-ba21-bc0479c9c79a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputController\SneakyButton.cpp">
+      <Filter>Classes\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputController\SneakyButtonSkinnedBase.cpp">
+      <Filter>Classes\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputController\SneakyJoystick.cpp">
+      <Filter>Classes\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputController\SneakyJoystickSkinnedBase.cpp">
+      <Filter>Classes\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLoadingScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyMenuScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CBackground.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CBullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CHero.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CTower.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NodeManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputController\SneakyButton.h">
+      <Filter>Classes\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputController\SneakyButtonSkinnedBase.h">
+      <Filter>Classes\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputController\SneakyJoystick.h">
+      <Filter>Classes\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputController\SneakyJoystickSkinnedBase.h">
+      <Filter>Classes\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLoadingScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyMenuScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CBackground.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CBullet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CHero.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CTower.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NodeManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
